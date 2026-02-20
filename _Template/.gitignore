@@ -1,0 +1,36 @@
+# Godot auto generated files
+*.gen.*
+
+# Ignore files generated for documentation
+/doc_classed/gen
+
+# Binaries
+*.o
+*.os
+*.so
+*.obj
+*.bc
+*.pyc
+*.dblite
+*.pdb
+*.lib
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+*.idb
+*.exp
+
+# Other stuff
+*.log
+
+# VSCode
+.DS_Store
+
+# Jetbrains
+.idea/
+
+# Cmake
+cmake-build*
+CMakeUserPresets.json
