@@ -59,10 +59,7 @@ library = env.SharedLibrary(
     source=sources,
 )
 
-copy = env.Install("{}/bin/{}{}/".format(projectdir, libname, env["platform"]), library)
-
-default_args = [library, copy]
-Default(*default_args)
+copy = env.Install("{}/bin/{}/{}/".format(projectdir, libname, env["platform"]), library)
 
 default_args = [library, copy]
 Default(*default_args)
