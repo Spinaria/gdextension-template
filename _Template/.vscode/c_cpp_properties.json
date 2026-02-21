@@ -5,7 +5,9 @@
             "includePath": [
                 "${default}",
                 "${workspaceFolder}/../_godot-cpp/gdextension",
+                "${workspaceFolder}/../_godot-cpp/gen/src",
                 "${workspaceFolder}/../_godot-cpp/gen/include",
+                "${workspaceFolder}/../_godot-cpp/src",
                 "${workspaceFolder}/../_godot-cpp/include"
             ],
             "defines": [
