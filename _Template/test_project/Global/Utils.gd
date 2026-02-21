@@ -101,7 +101,7 @@ static func pause(node: Node) -> void:
 static func renameNode(node: Node, new_name: String) -> void:
     if node.name == new_name:
         return
-    if !Engine.is_editor_hint():
+    if Engine.is_editor_hint():
         var undoredo: EditorUndoRedoManager = EditorInterface.get_editor_undo_redo()
         undoredo.create_action("Rename Node")
         undoredo.add_do_property(node, "name", new_name)
