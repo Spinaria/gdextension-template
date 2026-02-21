@@ -13,6 +13,10 @@ config_version=5
 run/main_scene="uid://bn6b80q25bhta"
 config/features=PackedStringArray("4.6")
 
+[autoload]
+
+G="*uid://dwm12m477unrg"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
